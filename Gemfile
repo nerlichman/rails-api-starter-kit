@@ -50,6 +50,8 @@ group :development, :test do
 
   # RSpec for Rails 8+
   gem "rspec-rails", "~> 8.0"
+
+  gem "dotenv-rails"
 end
 
 group :test do
