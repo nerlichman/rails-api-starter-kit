@@ -51,6 +51,9 @@ group :development, :test do
   # RSpec for Rails 8+
   gem "rspec-rails", "~> 8.0"
 
+  # Fixtures replacement with a straightforward definition syntax
+  gem "factory_bot_rails"
+
   gem "dotenv-rails"
 end
 
