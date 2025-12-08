@@ -51,3 +51,7 @@ group :development, :test do
   # RSpec for Rails 8+
   gem "rspec-rails", "~> 8.0"
 end
+
+group :test do
+  gem "shoulda-matchers"
+end
