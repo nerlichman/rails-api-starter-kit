@@ -54,6 +54,9 @@ group :development, :test do
   # Fixtures replacement with a straightforward definition syntax
   gem "factory_bot_rails"
 
+  # A library for generating fake data
+  gem "faker"
+
   gem "dotenv-rails"
 end
 
