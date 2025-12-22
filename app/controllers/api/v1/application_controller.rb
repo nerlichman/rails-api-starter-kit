@@ -3,6 +3,9 @@
 module Api
   module V1
     class ApplicationController < ::ApplicationController
+      include ActionController::HttpAuthentication::Token::ControllerMethods
+      include Authentication
+
       before_action :set_locale
 
       rescue_from ActiveRecord::RecordNotFound,        with: :render_not_found

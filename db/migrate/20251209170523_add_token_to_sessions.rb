@@ -1,0 +1,8 @@
+# frozen_string_literal: true
+
+class AddTokenToSessions < ActiveRecord::Migration[8.1]
+  def change
+    add_column :sessions, :token, :string
+    add_index :sessions, :token, unique: true
+  end
+end

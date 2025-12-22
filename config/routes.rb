@@ -9,4 +9,12 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  namespace :api do
+    namespace :v1 do
+      resource :sessions
+      resources :registrations, only: %i[create]
+      # resources :passwords, param: :token # TODO: enable when frontend supports password resets
+    end
+  end
 end
