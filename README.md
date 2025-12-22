@@ -1,24 +1,7 @@
-# README
+# Rails API Starter Kit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails API Starter Kit is a boilerplate project for JSON RESTful APIs in Ruby on Rails. 
 
-Things you may want to cover:
+## License
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The project is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
